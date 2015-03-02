@@ -1,2 +1,14 @@
-GET /js/rack_crud
-GET /js/vendor/jquery_2_1_3_min
+GET    /
+
+GET    /foos
+POST   /foos
+GET    /foos/create
+GET    /foos/:id/show
+GET    /foos/:id/edit
+PUT    /foos/:id
+DELETE /foos/:id
+
+GET /css/vendor/:file
+
+GET /rack-crud/js/:file
+GET /rack-crud/js/vendor/:file
