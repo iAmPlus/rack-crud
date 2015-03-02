@@ -8,13 +8,12 @@ class RequestHandler
   end
 
   def not_found
-    raise "Not found: #{ @env[ 'REQUEST_PATH' ]}"
+    # raise "Not found: #{ @env[ 'REQUEST_PATH' ]}"
 
     Response.not_found_for '404: There is no route for your request.'
   end
 
   def get_rack_crud_js
-    ap Dir.pwd
     Response.ok_for File.read( "public/js/#{ @url_params[ :file ]}" )
   end
 
