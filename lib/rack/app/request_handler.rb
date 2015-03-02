@@ -1,5 +1,4 @@
 class RequestHandler
-  include FooRequest
   include CRUDRequest
 
   def initialize env, params, url_params
