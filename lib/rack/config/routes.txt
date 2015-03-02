@@ -1,0 +1,13 @@
+GET    /
+
+GET    /foos
+POST   /foos
+GET    /foos/create
+GET    /foos/:id/show
+GET    /foos/:id/edit
+PUT    /foos/:id
+DELETE /foos/:id
+
+GET /js/:file
+GET /js/vendor/:file
+GET /css/vendor/:file

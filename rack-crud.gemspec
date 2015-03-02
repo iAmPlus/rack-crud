@@ -1,12 +1,15 @@
  Gem::Specification.new do |s|
   s.name        = 'rack-crud'
-  s.version     = '0.0.4'
+  s.version     = '0.0.6'
   s.date        = '2015-03-02'
   s.summary     = 'Rack router for your Rack app.'
   s.description = 'CRUD operations for a rack app.'
   s.authors     = ['George Ulmer']
   s.email       = 'george@boost-media.com'
-  s.files       = ['lib/rack/crud.rb', 'lib/rack/app/request_handler.rb']
+  s.files       = ['lib/rack/crud.rb', 'lib/rack/app/request_handler.rb',
+                   'lib/rack/app/request.rb', 'lib/rack/app/request_handler.rb',
+                   'lib/rack/app/response.rb', 'lib/rack/models/crud_model.rb',
+                   'lib/rack/requests/crud.rb']
   s.homepage    = 'http://rubygems.org/gems/rack-crud'
   s.license     = 'MIT'
   
