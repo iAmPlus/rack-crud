@@ -1,6 +1,6 @@
  Gem::Specification.new do |s|
   s.name        = 'rack-crud'
-  s.version     = '0.0.8'
+  s.version     = '0.0.9'
   s.date        = '2015-03-02'
   s.summary     = 'Rack router for your Rack app.'
   s.description = 'CRUD operations for a rack app.'
