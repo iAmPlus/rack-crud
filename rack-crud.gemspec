@@ -1,6 +1,6 @@
  Gem::Specification.new do |s|
   s.name        = 'rack-crud'
-  s.version     = '0.0.7'
+  s.version     = '0.0.8'
   s.date        = '2015-03-02'
   s.summary     = 'Rack router for your Rack app.'
   s.description = 'CRUD operations for a rack app.'
@@ -15,6 +15,7 @@
   
   s.add_development_dependency 'rack', ['1.6']
   s.add_development_dependency 'rack-routing', ['0.0.7']
+  s.add_development_dependency 'mustache', ['1.0.1']
 
   s.add_development_dependency 'rspec', ['3.2']
   s.add_development_dependency 'rack-test', ['0.6.2']
