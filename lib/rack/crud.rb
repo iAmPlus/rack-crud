@@ -1,1 +1,1 @@
-require 'app/request_handler'
+require 'rack/app/request_handler'
